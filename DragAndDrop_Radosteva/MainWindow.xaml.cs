@@ -24,5 +24,15 @@ namespace DragAndDrop_Radosteva
         {
             InitializeComponent();
         }
+
+        private void image_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

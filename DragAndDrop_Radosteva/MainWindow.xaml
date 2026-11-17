@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DragAndDrop_Radosteva"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" MinHeight="350" MinWidth="525">
-    <Grid>
-        <Image x:Name="image" Source="/Image/ic-button.png" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,84,0,0"/>
+        Title="MainWindow" Height="350" Width="525" MinHeight="350" MinWidth="525" MouseUp="image_MouseUp">
+    <Grid MouseUp="image_MouseUp">
+        <Image x:Name="image" MouseUp="image_MouseUp" MouseDown="Image_MouseDown" Source="/Image/ic-button.png" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,84,0,0"/>
     </Grid>
 </Window>
