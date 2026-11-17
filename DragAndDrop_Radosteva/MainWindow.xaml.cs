@@ -28,5 +28,10 @@ namespace DragAndDrop_Radosteva
         {
             dispatcherTimer.Stop();
         }
+
+        private void OpenCrop_Click(object sender, RoutedEventArgs e)
+        {
+            new CropWindow().Show();
+        }
     }
 }

@@ -8,5 +8,6 @@
         Title="MainWindow" Height="350" Width="525" MinHeight="350" MinWidth="525" MouseUp="image_MouseUp">
     <Grid MouseUp="image_MouseUp">
         <Image x:Name="image" MouseUp="image_MouseUp" MouseDown="Image_MouseDown" Source="/Image/ic-button.png" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,84,0,0"/>
+        <Button Content="Обрезка фото" Width="120" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Click="OpenCrop_Click"/>
     </Grid>
 </Window>
